@@ -3,7 +3,6 @@ import java.math.BigInteger;
 
 public class RecursiveDigitSum {
 
-    // method 1 -> recursive solution
     static int digitSum(String n, int k) {
         long superDigit = getSuperDigit(n);
         long n1 = getSuperDigit(superDigit);
